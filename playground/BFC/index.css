@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* 情况一 */
+.box1 {
+  height: 50px;
+  width: 500px;
+  margin-bottom: 50px;
+  background-color: red;
+}
+.box2 {
+  overflow: auto;
+}
+.box2 > .container {
+  height: 50px;
+  width: 500px;
+  margin-top: 100px;
+  background-color: green;
+}
+
+/* 情况二 */
+.father {
+  width: 500px;
+  height: 200px;
+  background-color: pink;
+  overflow: auto;
+}
+.father > .child {
+  width: 200px;
+  height: 50px;
+  background-color: lightgreen;
+  margin-top: 100px;
+}
+
+/* 情况三 */
+.container {
+  width: 500px;
+  height: 200px;
+  border: 1px solid #333;
+}
+.container > .null {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.container > .last {
+  height: 50px;
+  background-color: lightseagreen;
+}
+
+/* 内部浮动 */
+.outer1 {
+  border: 1px solid #333;
+  width: 500px;
+  /* 方案1 */
+  /* display: flow-root; */
+  /* 方案2 */
+  overflow: auto;
+}
+.outer1 > .float {
+  width: 300px;
+  height: 100px;
+  background-color: lightpink;
+  float: left;
+}
+.outer1 > .normal {
+  width: 300px;
+  height: 50px;
+  background-color: lightseagreen;
+}
+
+/* 外部浮动 */
+.outer2 {
+  width: 500px;
+  height: 200px;
+  border: 1px solid #333;
+}
+.outer2 > .float {
+  margin-right: 10px;
+  width: 200px;
+  height: 100px;
+  resize: both;
+  overflow: hidden;
+  background-color: lightpink;
+  float: left;
+}
+.outer2 > .normal {
+  overflow: auto;
+  /* display: flow-root; */
+  height: 50px;
+  background-color: lightseagreen;
+}
