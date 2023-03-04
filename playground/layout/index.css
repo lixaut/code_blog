@@ -1,0 +1,93 @@
+
+div {
+  height: 300px;
+}
+
+/* float */
+.left1 {
+  width: 300px;
+  float: left;
+  background-color: yellowgreen;
+}
+.right1 {
+  width: 300px;
+  float: right;
+  background-color: yellowgreen;
+}
+.container1 {
+  background-color: #666;
+}
+
+/* position */
+.position {
+  position: relative;
+}
+.left2 {
+  position: absolute;
+  left: 0;
+  width: 300px;
+  background-color: lightcoral;
+}
+.right2 {
+  position: absolute;
+  right: 0;
+  width: 300px;
+  background-color: lightcoral;
+}
+.container2 {
+  position: absolute;
+  left: 300px;
+  right: 300px;
+  background-color: #666;
+}
+
+/* -margin */
+.margin > div {
+  float: left;
+}
+.container3 {
+  width: 100%;
+  background-color: #666;
+}
+.container3 > h1 {
+  margin: 0 300px;
+}
+.left3 {
+  width: 300px;
+  margin-left: -100%;
+  background-color: lightpink;
+}
+.right3 {
+  width: 300px;
+  margin-left: -300px;
+  background-color: lightpink;
+}
+
+/* flex */
+.flex {
+  display: flex;
+}
+.left4 {
+  width: 300px;
+  background-color: lightblue;
+}
+.container4 {
+  flex: 1;
+}
+.right4 {
+  width: 300px;
+  background-color: lightblue;
+}
+
+/* grid */
+.grid {
+  display: grid;
+  grid-template-rows: 100px;
+  grid-template-columns: 300px auto 300px;
+}
+.left5 {
+  background-color: lightslategray;
+}
+.right5 {
+  background-color: lightslategray;
+}
