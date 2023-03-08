@@ -5,3 +5,4 @@
 2. [通用的事件侦听器](./EventUtils.js)
 3. [instanceof](./myInstanceof.js)
 4. [new](./myNew.js)
+5. [函数的节流&防抖](./debounce%26throttle.js)
