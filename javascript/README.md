@@ -6,3 +6,4 @@
 3. [instanceof](./myInstanceof.js)
 4. [new](./myNew.js)
 5. [函数的节流&防抖](./debounce%26throttle.js)
+6. [深拷贝&浅拷贝](./copy.js)
