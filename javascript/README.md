@@ -14,3 +14,4 @@
 11. [类型判断函数](./type.js)
 12. [隔秒打印数字](./console.js)
 13. [实现jsonp](./jsonp.js)
+14. [实现一个观察者模式](./events.js)
