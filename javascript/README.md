@@ -9,3 +9,4 @@
 6. [深拷贝&浅拷贝](./copy.js)
 7. [call&apply&bind](./call.js)
 8. [curry](./curry.js)
+9. [setInterval](./setInterval.js)
