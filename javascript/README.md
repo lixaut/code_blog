@@ -8,3 +8,4 @@
 5. [函数的节流&防抖](./debounce%26throttle.js)
 6. [深拷贝&浅拷贝](./copy.js)
 7. [call&apply&bind](./call.js)
+8. [curry](./curry.js)
