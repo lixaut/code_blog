@@ -20,3 +20,5 @@
 17. [数组去重](./arrSet.js)
 18. [大数相加](./bigNumAdd.js)
 19. [数组扁平化](./flattenArr.js)
+20. [数组最大值求解](./arrMax.js)
+21. [最大公约数&最小公倍数](./maxDiv.js)
