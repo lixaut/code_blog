@@ -54,3 +54,17 @@ export function getRowSpanObj(tableList, spanColFields) {
   });
   return rowSpanObj;
 }
+
+/**
+ * 钱数格式化为三位
+ * 123456789.22 -> 1,234,567,789.22
+ * @param {Number|String} money
+ * @returns {String}
+ */
+export const moneyFormatter = (money) => {
+  const moneyStr = money + '',
+    regExp_float = /\B(?=(\d{3})+\.)/g,
+    regExp_int = /\B(?=(\d{3})+$)/g;
+  let regExp = moneyStr.includes('.') ? regExp_float : regExp_int;
+  return moneyStr.replace(regExp, ',');
+};
