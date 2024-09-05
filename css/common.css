@@ -1,0 +1,21 @@
+
+/* 滚动条样式 */
+.scrollbar_::-webkit-scrollbar {
+  width: 0.07rem;
+  background: transparent;
+}
+.scrollbar_::-webkit-scrollbar-track {
+  background: rgba(14, 44, 99, 1);
+  border-radius: 0.035rem;
+}
+.scrollbar_::-webkit-scrollbar-thumb {
+  background: rgba(49, 133, 247, 1);
+  border-radius: 0.035rem;
+}
+
+/* 渐变字体 */
+.linear_gradient_font {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1) 10%, rgba(255, 121, 0, 1) 90%);
+}
